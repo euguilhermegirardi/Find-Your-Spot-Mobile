@@ -13,7 +13,7 @@ export default function Login({ navigation }) {
         navigation.navigate('List');
       }
     })
-  },[])
+  },[]);
 
   async function handleSubmit() {
     // email, services
